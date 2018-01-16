@@ -9,14 +9,19 @@ It shows the current state of the modifications before a commit. It is usefull t
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+We can control wich files we add to commits, this way we can follow the one comit per logical change recomendation.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When we are working on more than one problem and we dont want to modify the original code.
 
 How do the diagrams help you visualize the branch structure?
+Helps me to separate the branche's commits. We can track the changes by branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+We add the commits of the branches to the main branch. we represent in tow diffrent paths to know that they were mad in separate branchez add to know that we must use the show command to get the diffrences of a certain commit.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Auto merging is faster and gives less chance to mistakes but can't resolve every modificaton.
